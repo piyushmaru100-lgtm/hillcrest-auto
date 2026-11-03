@@ -1,0 +1,7 @@
+{
+  "name": "Hillcrest Auto Repair",
+  "description": "Official website for Hillcrest Auto Repair in San Diego, CA. Providing smog checks, brake repairs, clutch service, and general vehicle maintenance on First Avenue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

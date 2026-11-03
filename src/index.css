@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Bebas Neue', Impact, sans-serif;
+  --font-subheading: 'Montserrat', system-ui, sans-serif;
+  --font-sans: 'Open Sans', system-ui, sans-serif;
+
+  --color-brand-red: #B22234;
+  --color-brand-red-dark: #931B2A;
+  --color-brand-blue: #1E3A8A;
+  --color-brand-blue-dark: #14285E;
+  --color-brand-blue-night: #0E1A38;
+  --color-brand-white: #F8F9FB;
+  --color-brand-graphite: #2D3748;
+  --color-brand-light-blue: #E8EFF8;
+  --color-brand-light-red: #FBEAEC;
+  --color-brand-border: #E2E8F0;
+}
+
+/* Custom Typography Helpers */
+.font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: 0.04em;
+}
+
+.font-subheading {
+  font-family: var(--font-subheading);
+}
+
+.font-body {
+  font-family: var(--font-sans);
+}
+
+/* Base Body Defaults */
+body {
+  font-family: var(--font-sans);
+  background-color: #F8F9FB;
+  color: #2D3748;
+  overflow-x: hidden;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Clean Focus Visibility */
+:focus-visible {
+  outline: 2px solid #B22234;
+  outline-offset: 2px;
+}
